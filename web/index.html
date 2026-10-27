@@ -1,8 +1,102 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="An open source offline learning, teaching and campus planning starter kit. Includes an Amdo Tibetan–English course."><title>School in a Box · Learn through teaching</title><link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css"><script defer src="./app.js"></script></head>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="An open source offline learning, teaching and campus planning starter kit. Includes an Amdo Tibetan–English course.">
+<title>School in a Box · Learn through teaching</title>
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./style.css">
+<script defer src="./app.js">
+</script>
+</head>
 <body>
 <a class="skip" href="#reader">Skip to document</a>
-<header><div class="brand">SCHOOL IN A BOX <span>OPEN SOURCE · OFFLINE LEARNING</span></div><p class="eyebrow">AMDO TIBETAN ↔ ENGLISH · RECIPROCAL LEARNING</p><h1>Learn by teaching.<br>Make room for everyone.</h1><p>An adaptable course library and campus planning kit for learning together, with or without internet.</p><div class="stats"><span>2 available weeks</span><span>8 lesson guides</span><span>4 campus contexts</span><span>No account required</span></div></header>
-<main><aside><h2>Your school</h2><label for="campus">Campus context</label><select id="campus"></select><p id="campus-context" class="small"></p><label for="course">Course</label><select id="course"></select><label for="search">Search words or Tibetan script</label><input id="search" type="search" placeholder="Try hospitality or ཆུ"><label for="collection">Collection</label><select id="collection"><option value="student">Learn · Student activities</option><option value="teacher">Teach · Guides & answer keys</option><option value="planning">School · Plans & templates</option></select><label for="week">Week</label><select id="week"></select><label for="level">Learning level</label><select id="level"></select><label for="language">Language facing</label><select id="language"><option value="all">Amdo & English</option><option value="amdo">Amdo</option><option value="english">English</option></select><p id="count" role="status">Loading library…</p><nav id="library" aria-label="Documents"></nav><p class="small">Starter course: educator review needed. Teacher keys are open resources. Campus contexts are adaptable planning templates.</p></aside>
-<section id="reader" tabindex="-1" aria-label="Document reader"><div class="toolbar"><span id="kind"></span><button id="print">Print document</button><a id="source">Read Markdown source ↗</a></div><h2 id="title"></h2><p id="status"></p><p id="rhythm" class="context"></p><article id="content"></article><section id="practice"><h3>My learning & teaching notes</h3><p>What did I learn? How would I teach it? What needs checking?</p><textarea id="notes" rows="7" aria-label="Personal learning and teaching notes" placeholder="Your own learning reflections; keep student personal information out."></textarea><label class="check"><input type="checkbox" id="complete"> I practiced this lesson</label><p id="saved" role="status" class="small">Notes stay in this browser. Export for backup; clear on shared computers.</p><div class="note-actions"><button id="export">Export notes</button><label class="file-label" for="import">Import notes</label><input id="import" type="file" accept="application/json,.json"><button id="clear">Clear my notes</button></div><p id="import-status" role="status" class="small"></p><button id="confirm-import" hidden>Confirm import</button></section></section></main>
-<footer>School in a Box v0.1 · DABA starter course · <a href="https://github.com/pqexpert/school-in-a-box" rel="noreferrer">Source & contribution</a> · <a href="./LICENSE">MIT software</a> · <a href="./LICENSE-CONTENT.md">CC BY 4.0 content</a></footer></body></html>
+<header>
+<div class="brand">SCHOOL IN A BOX <span>OPEN SOURCE · OFFLINE LEARNING</span>
+</div>
+<p class="eyebrow">AMDO TIBETAN ↔ ENGLISH · RECIPROCAL LEARNING</p>
+<h1>Learn by teaching.<br>Make room for everyone.</h1>
+<p>An adaptable course library and campus planning kit for learning together, with or without internet.</p>
+<div class="stats">
+<span>2 available weeks</span>
+<span>8 lesson guides</span>
+<span>4 campus contexts</span>
+<span>No account required</span>
+</div>
+</header>
+<main>
+<aside>
+<h2>Your school</h2>
+<label for="campus">Campus context</label>
+<select id="campus">
+</select>
+<p id="campus-context" class="small">
+</p>
+<label for="course">Course</label>
+<select id="course">
+</select>
+<label for="search">Search words or Tibetan script</label>
+<input id="search" type="search" placeholder="Try hospitality or ཆུ">
+<label for="collection">Collection</label>
+<select id="collection">
+<option value="student">Learn · Student activities</option>
+<option value="teacher">Teach · Guides & answer keys</option>
+<option value="planning">School · Plans & templates</option>
+</select>
+<label for="week">Week</label>
+<select id="week">
+</select>
+<label for="level">Learning level</label>
+<select id="level">
+</select>
+<label for="language">Language facing</label>
+<select id="language">
+<option value="all">Amdo & English</option>
+<option value="amdo">Amdo</option>
+<option value="english">English</option>
+</select>
+<p id="count" role="status">Loading library…</p>
+<nav id="library" aria-label="Documents">
+</nav>
+<p class="small">Starter course: educator review needed. Teacher keys are open resources. Campus contexts are adaptable planning templates.</p>
+</aside>
+<section id="reader" tabindex="-1" aria-label="Document reader">
+<div class="toolbar">
+<span id="kind">
+</span>
+<button id="print">Print document</button>
+<a id="source">Read Markdown source ↗</a>
+</div>
+<h2 id="title">
+</h2>
+<p id="status">
+</p>
+<p id="rhythm" class="context">
+</p>
+<article id="content">
+</article>
+<section id="practice">
+<h3>My learning & teaching notes</h3>
+<p>What did I learn? How would I teach it? What needs checking?</p>
+<textarea id="notes" rows="7" aria-label="Personal learning and teaching notes" placeholder="Your own learning reflections; keep student personal information out.">
+</textarea>
+<label class="check">
+<input type="checkbox" id="complete"> I practiced this lesson</label>
+<p id="saved" role="status" class="small">Notes stay in this browser. Export for backup; clear on shared computers.</p>
+<div class="note-actions">
+<button id="export">Export notes</button>
+<label class="file-label" for="import">Import notes</label>
+<input id="import" type="file" accept="application/json,.json">
+<button id="clear">Clear my notes</button>
+</div>
+<p id="import-status" role="status" class="small">
+</p>
+<button id="confirm-import" hidden>Confirm import</button>
+</section>
+</section>
+</main>
+<footer>School in a Box v0.1 · DABA starter course · <a href="https://github.com/pqexpert/school-in-a-box" rel="noreferrer">Source & contribution</a> · <a href="./LICENSE">MIT software</a> · <a href="./LICENSE-CONTENT.md">CC BY 4.0 content</a>
+</footer>
+</body>
+</html>

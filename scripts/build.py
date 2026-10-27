@@ -83,6 +83,7 @@ def main():
         if args.output.exists():
             parser.error('Output already exists. Choose a new directory to preserve existing files.')
         args.output.mkdir(parents=True)
+        (args.output / '.nojekyll').touch()
         for name in ['index.html', 'app.js', 'style.css', 'favicon.svg', 'catalog.json']:
             shutil.copyfile(ROOT / 'web' / name, args.output / name)
         shutil.copytree(ROOT / 'content', args.output / 'content')

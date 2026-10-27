@@ -8,7 +8,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_DIRS = ['web', 'content', 'docs', 'scripts', 'tests', '.github']
-PUBLIC_FILES = ['README.md', 'LICENSE', 'LICENSE-CONTENT.md', 'CONTRIBUTING.md',
+PUBLIC_FILES = ['README.md', 'CHANGELOG.md', 'LICENSE', 'LICENSE-CONTENT.md', 'CONTRIBUTING.md',
                 'CODE_OF_CONDUCT.md', 'SECURITY.md', 'server.py', '.gitignore']
 
 

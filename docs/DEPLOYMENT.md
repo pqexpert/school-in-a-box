@@ -26,6 +26,8 @@ python3 scripts/build.py --output site
 
 Upload the entire `site/` directory to a maintained static HTTPS host of your choice. All links and assets are relative, so subdirectory hosting works. The host receives normal web requests and may have its own logging policy; the app has no analytics. Notes are local to that exact origin and browser. Source hosting on GitHub does not itself deploy a website.
 
+The reference demo at https://pqexpert.io/school-in-a-box/ uses this repository's generated `gh-pages` branch. Updates to `main` do not automatically update the demo. Maintainers rebuild into a fresh output directory, review it, then commit the resulting static files to `gh-pages`. GitHub's built-in Pages build publishes that branch. The optional CI example in `docs/ci.example.yml` is not an installed workflow.
+
 ## Update, rollback and backup
 
 Export personal notes before changing origins/browsers or clearing browser storage. Download a new release into a separate folder, run the tests, stop the old server and start the new one. Keep the prior folder to roll back. A build error must be fixed before distribution. Restore exported notes with Import notes; import merges by lesson ID after a visible review and explicit confirmation.

@@ -1,0 +1,6 @@
+[
+  {"id":"community","name":"Community classroom","context":"An adaptable mixed community or home-learning setting. Everyone has access to the same course.","rhythm":"Welcome and check-in · Pair practice · Small-group inquiry · Teach-back · Reflection"},
+  {"id":"boys","name":"Boys campus template","context":"Optional local planning context inherited from the DABA concept. Adapt through community leadership; no subjects or levels are restricted by this label.","rhythm":"Welcome · Shared language practice · Inquiry in mixed-ability pairs · Peer teaching · Reflection"},
+  {"id":"girls","name":"Girls campus template","context":"Optional local planning context inherited from the DABA concept. Use the same objectives, access and resources; adapt to learners rather than stereotypes.","rhythm":"Welcome · Shared language practice · Inquiry in mixed-ability pairs · Peer teaching · Reflection"},
+  {"id":"monastic","name":"Monastic campus template","context":"Optional community-approved context. Coordinate learning time with local teachers; cultural or religious extensions require appropriate sources and authority.","rhythm":"Local schedule check · Language practice · Partner inquiry · Peer teaching · Reflection"}
+]

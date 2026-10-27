@@ -1,0 +1,266 @@
+{
+  "version": "0.1.0",
+  "campuses": [
+    {
+      "id": "community",
+      "name": "Community classroom",
+      "context": "An adaptable mixed community or home-learning setting. Everyone has access to the same course.",
+      "rhythm": "Welcome and check-in · Pair practice · Small-group inquiry · Teach-back · Reflection"
+    },
+    {
+      "id": "boys",
+      "name": "Boys campus template",
+      "context": "Optional local planning context inherited from the DABA concept. Adapt through community leadership; no subjects or levels are restricted by this label.",
+      "rhythm": "Welcome · Shared language practice · Inquiry in mixed-ability pairs · Peer teaching · Reflection"
+    },
+    {
+      "id": "girls",
+      "name": "Girls campus template",
+      "context": "Optional local planning context inherited from the DABA concept. Use the same objectives, access and resources; adapt to learners rather than stereotypes.",
+      "rhythm": "Welcome · Shared language practice · Inquiry in mixed-ability pairs · Peer teaching · Reflection"
+    },
+    {
+      "id": "monastic",
+      "name": "Monastic campus template",
+      "context": "Optional community-approved context. Coordinate learning time with local teachers; cultural or religious extensions require appropriate sources and authority.",
+      "rhythm": "Local schedule check · Language practice · Partner inquiry · Peer teaching · Reflection"
+    }
+  ],
+  "courses": [
+    {
+      "id": "amdo-english",
+      "title": "Amdo Tibetan ↔ English",
+      "summary": "Learn through teaching: everyday language, reciprocal inquiry and respectful communication. Two draft weeks are available; the 36-week course remains a roadmap.",
+      "levels": [
+        {
+          "id": "L1",
+          "name": "Seed · Objects and short phrases"
+        },
+        {
+          "id": "L2",
+          "name": "Sprout · Sentences and dialogue"
+        },
+        {
+          "id": "L3",
+          "name": "Lotus · Inquiry and explanation"
+        },
+        {
+          "id": "L4",
+          "name": "Vajra · Peer teaching and reflection"
+        }
+      ],
+      "weeks": [
+        {
+          "number": 1,
+          "title": "Identity"
+        },
+        {
+          "number": 2,
+          "title": "Hospitality"
+        }
+      ],
+      "review_status": "Draft: fluent educator review required",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "documents": [
+    {
+      "id": "school-campus",
+      "title": "Campus plan and shared responsibilities",
+      "path": "content/school/campus-plan.md",
+      "review_status": "Adaptable planning template",
+      "collection": "planning",
+      "content": "# Campus plan and shared responsibilities\n\nCopy and adapt locally · CC BY 4.0\n\n## Community decisions\n\n- Working campus name and context: ______\n- Learning purpose and languages: ______\n- Accessible meeting place and backup place: ______\n- Session times agreed with local people: ______\n- Human roles: educator, language reviewer, resource keeper, safeguarding contact.\n- Local process for consent, concerns and a safe departure: ______\n\nKeep real names and contact details in the community's appropriate private process, not in public issues or portal notes.\n\n## Shared learning rhythm\n\nWelcome and check-in → Demonstration → Partner practice → Inquiry → Teach-back → Reflection.\n\nExample 60-minute session: 5 minutes welcome, 10 demonstration, 15 pair practice, 15 inquiry, 10 teach-back, 5 reflection. Adjust timing for age, access, fatigue and local commitments; this is a planning example.\n\n## Equal opportunity and stewardship\n\nUse the same learning objectives and opportunity to participate across campuses. Compare aggregate availability of books, devices, printouts, teacher time and accessible spaces. Identify barriers with the people affected. Do not infer ability, attendance or entitlement from a campus label or gender.\n\n## Decisions remain human\n\nWho can change the timetable? Who reviews language and cultural content? Who stops a session if conditions become unsafe? Agree and document these locally. This app has no authority to assign people, spend money, decide compliance or operate a campus.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "school-course",
+      "title": "Course map and level progression",
+      "path": "content/school/course-map.md",
+      "review_status": "Draft course planning template",
+      "collection": "planning",
+      "content": "# Amdo Tibetan ↔ English course map\n\nDraft course design · CC BY 4.0\n\n## Available course units\n\n- Week 1: Identity — greetings, introductions, classroom objects and communicating through action.\n- Week 2: Hospitality — welcoming a guest, polite dialogue, respectful language and reflection.\n\nEach unit has Amdo-facing and English-facing student activities and teacher guides with embedded answers. Documents combine four levels. The portal's level filter finds documents tagged for a level; it does not rewrite lessons or assess the learner.\n\n## Four levels as flexible scaffolding\n\n- L1 Seed: notice objects, respond through gesture, and practice short phrases.\n- L2 Sprout: form sentences, ask questions, and take turns in dialogue.\n- L3 Lotus: compare meanings, explain choices, and investigate with a partner.\n- L4 Vajra: teach a concept to someone else, invite feedback, and revise the explanation.\n\nThese are course labels, not age, status or spiritual attainment. Let educators and learners choose suitable scaffolding. Access to the same resources remains open at every level.\n\n## Review before teaching\n\nFluent local educators should verify dialect, spelling, register, pronunciation, translations and answer guides. Distinguish regional variation from an error. Religious or philosophical extensions are optional and require local approval, verified sources and permission to share; the public starter pack does not reproduce a religious curriculum.\n\n## Expansion boundary\n\nWeeks 3–8 and the longer 36-week academic-year concept are planned work. No lesson, certificate, attendance record, school approval or learning outcome is implied by the course map. Expand only as reviewed material becomes available.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "school-resources",
+      "title": "Resource and offline readiness checklist",
+      "path": "content/school/resources.md",
+      "review_status": "Adaptable planning template",
+      "collection": "planning",
+      "content": "# Resource and offline readiness checklist\n\nLocal preparation template · CC BY 4.0\n\n## Before a session\n\n- A trusted, accessible place and an appropriate human facilitator.\n- Educator-reviewed student and teacher materials.\n- One computer with Python 3.11+ if using the portal; paper or slate alternatives for everyone.\n- Power and readable Tibetan font rendering checked on the actual device.\n- Downloaded release and matching SHA-256 checksum; a backup copy on USB if useful.\n- Printing checked while internet is disconnected.\n- Browser-local notes exported before changing shared profiles or devices.\n\n## Shared resources\n\nUse a local sheet for item type, number available, number needed, accessible alternative and person responsible. Avoid learner names. Compare access across campus contexts before acquiring more devices. Software is freely reusable; hardware, electricity, printing and local support may have costs.\n\n## Keep the deployment small\n\nAn existing laptop and printed sheets may be sufficient. LAN hosting is optional and needs an authorized local administrator. This kit does not configure a captive portal, manage network access, provide emergency support, or monitor health. Local safety and emergency procedures belong with qualified responsible people.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "school-review",
+      "title": "Educator and community review",
+      "path": "content/school/review.md",
+      "review_status": "Adaptable review template",
+      "collection": "planning",
+      "content": "# Educator and community review\n\nReview template · CC BY 4.0\n\nDocument/week/version: ______  Scope of review: ______\n\n## Language\n\n- Is the Tibetan text readable and spelled appropriately for its intended use?\n- Are dialect, transliteration, pronunciation, register and English meaning distinguished?\n- Does the teacher guide actually answer the student task?\n- Are variants acknowledged rather than presented as one universal pronunciation?\n\n## Teaching and access\n\n- Is the learner task clear, age-appropriate and possible with available resources?\n- Can learners participate without a device, and in accessible modes?\n- Does peer teaching support understanding without public ranking or coercion?\n- Are examples respectful and free of gender stereotypes or assumed religious participation?\n\n## Sources and local context\n\n- Are quotations verifiable, accurately attributed and permitted for redistribution?\n- Are any cultural or religious extensions voluntary and locally approved?\n- Has the community decided its own responsibilities, safeguarding and consent processes?\n- Does the plan avoid claiming accreditation, compliance or a running campus without evidence?\n\nRecord proposed corrections and any limits on the review. Name a reviewer publicly only with consent. Reviewing one document does not validate the whole course, software or school system.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "school-start",
+      "title": "Set up your school in a box",
+      "path": "content/school/start-here.md",
+      "review_status": "Adaptable planning template",
+      "collection": "planning",
+      "content": "# Set up your school in a box\n\nAn adaptable planning guide · CC BY 4.0\n\n## 1. Start with the people\n\nAsk learners, educators and community representatives what learning would help them. Agree on language, accessibility needs, voluntary participation and who is responsible for a safe session. Establish a trusted local safeguarding and consent process before running activities with children. Keep personal information out of this public project and portal notes.\n\n## 2. Open the box\n\nDownload a release, extract it, and run `python3 server.py` with Python 3.11+. Open http://127.0.0.1:8080. Read and print a student worksheet and its matching teacher guide. Disconnect internet access and confirm the local library still works. Keep printed copies if power or devices are unavailable.\n\n## 3. Choose a context\n\nUse the community classroom template or adapt a DABA campus context. Every campus receives the same course resources. Labels do not establish an institution or impose a gender or religious identity. Local people decide suitable schedules and optional cultural content.\n\n## 4. Plan one useful session\n\nChoose Week 1: Identity. Agree on a small learning objective. A teacher checks the language first, learners practice with a partner, and each partner teaches back something learned. Use the teaching-plan template to prepare an offline alternative. Introduce Week 2 only when the group is ready.\n\n## 5. Learn and improve\n\nInvite learners to explain what helped and what was confusing. Adjust the plan through educator judgment. Avoid automatic placement, promotion or remediation based on a group score. Share only non-identifying observations and openly licensed improvements upstream.\n\nThe portal is a resource library and planning kit. Its successful startup does not establish school accreditation, legal compliance, campus readiness or a complete curriculum.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "school-teaching",
+      "title": "Weekly lesson and teach-back plan",
+      "path": "content/school/teaching-plan.md",
+      "review_status": "Adaptable planning template",
+      "collection": "planning",
+      "content": "# Weekly lesson and teach-back plan\n\nEducator worksheet · CC BY 4.0\n\nCampus context: ______  Course/week: ______  Language facing: ______\n\n## Prepare\n\n- Objective learners can demonstrate: ______\n- Appropriate level and optional scaffolding: ______\n- Student worksheet and matching teacher guide: ______\n- Language reviewer and review scope, recorded with consent: ______\n- Accessible materials and alternative modes of participation: ______\n- Optional cultural context, approved source and redistribution permission: ______\n\n## Practice\n\n1. Show one example using a familiar physical object or situation.\n2. Let partners practice and change roles.\n3. Invite each learner to explain a small part to the partner.\n4. Ask the partner to demonstrate or explain what they understood.\n5. Offer specific feedback; let learners revise without public ranking.\n\n## Evidence and reflection\n\nWhat could the group demonstrate? What needs another explanation? Which language points remain uncertain? Record only non-identifying teaching observations here. Use educator judgment for next steps; the app does not grade or promote anyone.\n\n## No-device fallback\n\nRead or demonstrate the same prompt aloud. Use a slate, paper, physical objects or a courtyard conversation. Keep the objective and feedback opportunity equivalent. Do not require a device or internet connection for participation.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "week-01-amdo-student",
+      "title": "Week 1 · Identity · Amdo",
+      "collection": "student",
+      "week": 1,
+      "language": "amdo",
+      "levels": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "course": "amdo-english",
+      "path": "content/lessons/week-01-amdo-student.md",
+      "review_status": "draft: language and pedagogy review needed",
+      "content": "# Week 1: Identity — Amdo student\n\nDraft for educator review · Levels 1–4 · CC BY 4.0\n\n🏔️ W01 L1-L4: AMDO-FACING STUDENT WORKSHEET & ACTIVITIES\n\nStudent Instructions & Inquiry Prompts\n* Objective: Master basic self-introduction, classroom object identification, and bilingual proverbs bridging Amdo, Lhasa, and US English.\n\n---\n\nActivity 1: The Tri-Dialectal Greeting Pass\n* Task: Pair up with a peer. Practice greeting each other in Amdo phonetics and US English.\n   1. Amdo: ཁྱེད་རང་སྐུ་ཁམས་བཟང་། (Khyed-rang sku-kham bzang!)\n   2. English: \"Hello! How are you today?\"\n   3. Response: \"I am wonderful, thank you.\"\nActivity 2: Object Matching Challenge\n* Task: Draw a line from the English word to the Tibetan Uchen script and Amdo pronunciation:\n   * Water → ཆུ། → Chy\n   * Book → དཔེ་ཆ། → Hpe-cha\n   * Horse → རྟ། → Rta\nActivity 3: Proverb & Wordplay Inquiry\n* Proverb: ཁ་བཤད་ཆུ་ཡི་ལྦུ་བ། ལག་ལེན་གསེར་གྱི་ཐིགས་པ།\n* Question 1: What does a water bubble do when you touch it? What does gold do?\n* Question 2: Write down one way you can show \"drops of gold\" (actions) in your school this week instead of \"water bubbles\" (empty words).\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "week-01-amdo-teacher",
+      "title": "Week 1 · Identity · Amdo",
+      "collection": "teacher",
+      "week": 1,
+      "language": "amdo",
+      "levels": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "course": "amdo-english",
+      "path": "content/lessons/week-01-amdo-teacher.md",
+      "review_status": "draft: language and pedagogy review needed",
+      "content": "# Week 1: Identity — Amdo teacher\n\nDraft for educator review · Levels 1–4 · CC BY 4.0\n\n🏔️ W01 L1-L4: AMDO-FACING TEACHER MASTER GUIDE\n\nI. Pedagogical Facilitation Notes & Embedded Answer Keys\n* Target Audience: Educators operating across Boys K-12, Girls K-12, and Monastic Seminars.\n* Linguistic Rule: Always bridge Amdo phonetics (Chy, Rta) to Lhasa standard (Chu, Ta) before introducing US English equivalents (Water, Horse).\n\n---\n\nII. Module Breakdown & Answer Key Matrix\n1. Level 1 (Seed / Sa-bon) — Survival Greetings & Classroom Objects\n* Teacher Prompt (Amdo): ཁྱེད་རང་སྐུ་ཁམས་བཟང་། ངའི་མིང་ལ་...ཟེར། (Khyed-rang sku-kham bzang! Nga'i ming la... zer.)\n* Student Expected Response (English/Amdo): \"Hello! My name is...\"\n* Embedded Answer Key & Misconception Correction:\n   * Common Error: Students confuse English \"What is your name?\" with \"Where are you going?\".\n   * Teacher Correction: Model pointing to oneself (\"Nga\" / I) versus pointing to the student (\"Khyed-rang\" / You).\n   * Zero-Tech Backup: Point to physical classroom objects (Pe-cha / Book, Chy / Water) and have students chorus the English noun three times.\n2. Level 2 (Sprout / Myu-gu) — Family & Courtyard Mapping\n* Teacher Prompt (Amdo): ང་ཚོའི་ཁྱིམ་ཚང་དང་སློབ་གྲྭ་ནི་རྩྭ་ཐང་ན་ཡོད། (Nga-tsho'i khyim-tsang dang slob-grwa ni rtswa-thang na yod.)\n* Embedded Answer Key (Translated Dialogue):\n   * Q: Where is your home? -> A: My home is on the grassland near the river. (Nga'i khyim-tsang rtswa-thang dang chu-bo'i nye-da na yod.)\n   * Embedded Rubric Check: Student must use a complete sentence with subject, location verb (yod), and preposition.\n3. Level 3 (Lotus / Pad-ma) — Rig-lam Logic & Proverb Analysis\n* Proverb Focus: ཁ་བཤད་ཆུ་ཡི་ལྦུ་བ། ལག་ལེན་གསེར་གྱི་ཐིགས་པ། (Words are water bubbles; actions are drops of gold.)\n* Embedded Answer Key (Philosophical & Linguistic Analysis):\n   * Literal Meaning: Speech vanishes quickly like a bubble; deeds remain valuable like gold.\n   * English Idiom Bridge: \"Actions speak louder than words.\"\n   * Rig-lam Debate Prompt: \"Is speech without action useful?\" -> Expected Student Answer: \"No, just as a water bubble cannot quench thirst, words without action cannot build a school.\"\n4. Level 4 — Peer teaching and reflection\n* Prepare a short bilingual explanation of this week’s theme.\n* Invite a partner to teach it back, then compare clarity and respectful language.\n* Teacher rubric: clear meaning, understandable phrasing, and thoughtful peer feedback.\n* Optional cultural or religious extensions belong to the local community and require approved sources and teacher review.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "week-01-english-student",
+      "title": "Week 1 · Identity · English",
+      "collection": "student",
+      "week": 1,
+      "language": "english",
+      "levels": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "course": "amdo-english",
+      "path": "content/lessons/week-01-english-student.md",
+      "review_status": "draft: language and pedagogy review needed",
+      "content": "# Week 1: Identity — English student\n\nDraft for educator review · Levels 1–4 · CC BY 4.0\n\n🏔️ W01 L1-L4: ENGLISH-FACING STUDENT WORKSHEET & ACTIVITIES\n\nStudent Learning Guide & Exercises\n* Core Mission: Develop bilingual English-Tibetan fluency, global 21st-century skills, and rigorous philosophical inquiry.\n\n---\n\nActivity 1: The English Introduction Passport\n* Task: Fill in the blanks and practice reading aloud with your partner:\n   * \"Hello, my name is ---_______.\"\n   * \"I am studying at the our school in ---_______.\"\n   * \"My favorite subject is ---_______.\"\nActivity 2: Vocabulary Matching & Sentence Building\n* Task: Match the English term on the left with its Amdo pronunciation and Tibetan script:\n   1. Water → [  ] → ཆུ། (Chy)\n   2. Teacher → [  ] → དགེ་རྒན། (Ge-rgan)\n   3. Wisdom → [  ] → ཤེས་རབ། (She-rab)\nActivity 3: Critical Thinking & Growth Mindset Reflection\n* Prompt: Write three sentences in English about something you found difficult to learn and how practice or a partner helped you improve.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "week-01-english-teacher",
+      "title": "Week 1 · Identity · English",
+      "collection": "teacher",
+      "week": 1,
+      "language": "english",
+      "levels": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "course": "amdo-english",
+      "path": "content/lessons/week-01-english-teacher.md",
+      "review_status": "draft: language and pedagogy review needed",
+      "content": "# Week 1: Identity — English teacher\n\nDraft for educator review · Levels 1–4 · CC BY 4.0\n\n🏔️ W01 L1-L4: ENGLISH-FACING TEACHER MASTER GUIDE\n\nI. Educator Facilitation & Washington D.C. / Tibet Bridge Notes\n* Pedagogical Alignment: Constructivist inquiry combined with rigorous Amdo-Lhasa-English linguistic scaffolding.\n* Embedded Answer Key & Rubric Guidance:\n   * Warm-Up Assessment: Check whether students can transition between Amdo phonetics (Chy) and Lhasa standard (Chu).\n   * Formative Threshold: 75% of students must successfully execute the 5-object touch test during Gate 1. If below 75%, insert a 20-minute kinesthetic TPR review block on Tuesday.\n\n---\n\nII. Module Objectives & Answer Key Matrix\n1. Level 1 (Seed / Sa-bon)\n* Objective: Master basic greetings and singular/plural nouns.\n* Answer Key: \"Hello\" = ཁྱེད་རང་སྐུ་ཁམས་བཟང་།; \"Book\" = དཔེ་ཆ། (Pe-cha).\n2. Level 2 (Sprout / Myu-gu)\n* Objective: Construct compound sentences describing home environment.\n* Answer Key: Sentence frame: \"My home is located on the grassland where the river flows.\"\n3. Level 3 (Lotus / Pad-ma)\n* Objective: Compare Western idioms with Amdo proverbs.\n* Answer Key: Actions speak louder than words matches ཁ་བཤད་ཆུ་ཡི་ལྦུ་བ། ལག་ལེན་གསེར་གྱི་ཐིགས་པ།.\n4. Level 4 — Peer teaching and reflection\n* Prepare a short bilingual explanation of this week’s theme.\n* Invite a partner to teach it back, then compare clarity and respectful language.\n* Teacher rubric: clear meaning, understandable phrasing, and thoughtful peer feedback.\n* Optional cultural or religious extensions belong to the local community and require approved sources and teacher review.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "week-02-amdo-student",
+      "title": "Week 2 · Hospitality · Amdo",
+      "collection": "student",
+      "week": 2,
+      "language": "amdo",
+      "levels": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "course": "amdo-english",
+      "path": "content/lessons/week-02-amdo-student.md",
+      "review_status": "draft: language and pedagogy review needed",
+      "content": "# Week 2: Hospitality — Amdo student\n\nDraft for educator review · Levels 1–4 · CC BY 4.0\n\n🏔️ W02 L1-L4: AMDO-FACING STUDENT WORKSHEET & ACTIVITIES\n\nStudent Instructions & Inquiry Prompts\n* Objective: Practice hospitality dialogues, tea-serving etiquette, and cultural protocol across Amdo, Lhasa, and US English.\n\n---\n\nActivity 1: The Butter-Tea Serving Roleplay\n* Task: Pair with a classmate. One acts as the host offering tea (Zhes-ja); the other acts as the guest accepting with gratitude (Thugs-rje che).\n   1. Host: བཞེས་ཇ་ཕུལ། (Zhes-ja phul!)\n   2. Guest: ཐུགས་རྗེ་ཆེ། ལགས་སོ། (Thugs-rje che! Lags-so.)\nActivity 2: Vocabulary & Honorific Matching\n* Task: Match the standard term with its honorific (Zhe-sa) form:\n   * Drink → བཞེས་པ (Zhes-pa)\n   * Eat → མཆོད་པ (Mchod-pa)\n   * Speak → གསུང་པ (Gsung-pa)\nActivity 3: Cross-Cultural Diplomacy Reflection\n* Prompt: Compare how guests are welcomed in Washington, D.C. versus a traditional Amdo pasture tent or monastery. Write 2 sentences in English describing why hospitality is the foundation of global peace.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "week-02-amdo-teacher",
+      "title": "Week 2 · Hospitality · Amdo",
+      "collection": "teacher",
+      "week": 2,
+      "language": "amdo",
+      "levels": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "course": "amdo-english",
+      "path": "content/lessons/week-02-amdo-teacher.md",
+      "review_status": "draft: language and pedagogy review needed",
+      "content": "# Week 2: Hospitality — Amdo teacher\n\nDraft for educator review · Levels 1–4 · CC BY 4.0\n\n🏔️ W02 L1-L4: AMDO-FACING TEACHER MASTER GUIDE\n\nI. Pedagogical Facilitation Notes & Embedded Answer Keys\n* Target Audience: Educators operating across Boys K-12, Girls K-12, and Monastic Seminars.\n* Theme: Hospitality, Guest Etiquette, and Diplomatic Protocol (Mgron-bsu).\n* Linguistic Focus: Bridging Amdo honorific speech with Lhasa standard honorifics (Zhe-sa) and US diplomatic small talk.\n\n---\n\nII. Module Breakdown & Answer Key Matrix\n1. Level 1 (Seed / Sa-bon) — Serving Tea & Basic Politeness\n* Teacher Prompt (Amdo): བཞེས་ཇ་ཕུལ། ཐུགས་རྗེ་ཆེ། (Zhes-ja phul! Thugs-rje che.)\n* Embedded Answer Key & Misconception Correction:\n   * Translation: \"Please accept the tea! Thank you.\"\n   * Common Error: Using informal verbs when offering tea to elders or monks.\n   * Teacher Correction: Model honorific verb usage (Zhes) and bowing posture.\n2. Level 2 (Sprout / Myu-gu) — Hosting an American Guest in Tibet\n* Teacher Prompt (Amdo): ཕེབས་པ་དགའ་བསུ་ཞུ། ཁྱེད་རང་སྐུ་ཁམས་བཟང་ངམ། (Phebs-pa dga'-bsu zhu! Khyed-rang sku-kham bzang-ngam?)\n* Embedded Answer Key (Dialogue Response):\n   * Q: \"Welcome! Are you in good health?\" -> A: \"Yes, thank you for your wonderful hospitality.\" (* lags-so, thugs-rje che.*)\n3. Level 3 (Lotus / Pad-ma) — Rig-lam Logic & Hospitality Proverbs\n* Proverb Focus: མགྲོན་པོ་ལ་བརྩི་མཐོང་། བདག་པོ་ལ་ཞབས་ཏོག (Respect for the guest; service to the host.)\n* Embedded Answer Key & Philosophical Analysis:\n   * Discussion Prompt: How does hosting reflect the core constructivist value of mutual respect?\n   * Rubric Answer: Hosting bridges cultural boundaries by recognizing the shared humanity and dignity of every traveler.\n4. Level 4 — Peer teaching and reflection\n* Prepare a short bilingual explanation of this week’s theme.\n* Invite a partner to teach it back, then compare clarity and respectful language.\n* Teacher rubric: clear meaning, understandable phrasing, and thoughtful peer feedback.\n* Optional cultural or religious extensions belong to the local community and require approved sources and teacher review.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "week-02-english-student",
+      "title": "Week 2 · Hospitality · English",
+      "collection": "student",
+      "week": 2,
+      "language": "english",
+      "levels": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "course": "amdo-english",
+      "path": "content/lessons/week-02-english-student.md",
+      "review_status": "draft: language and pedagogy review needed",
+      "content": "# Week 2: Hospitality — English student\n\nDraft for educator review · Levels 1–4 · CC BY 4.0\n\n🏔️ W02 L1-L4: ENGLISH-FACING STUDENT WORKSHEET & ACTIVITIES\n\nStudent Learning Guide & Exercises\n* Core Mission: Master diplomatic welcoming phrases, honorific etiquette, and cross-cultural communication skills.\n\n---\n\nActivity 1: The Diplomatic Greeting Dialogue\n* Task: Fill in the missing English and Tibetan phrases for welcoming a guest to your campus:\n   * \"Welcome to our school! ---_______ (Phebs-pa dga'-bsu zhu!)\"\n   * \"Please have some butter tea. ---_______ (Zhes-ja phul!)\"\n   * \"Thank you very much. ---_______ (Thugs-rje che!)\"\nActivity 2: Vocabulary & Concept Matching\n* Task: Match the concept on the left with its description on the right:\n   1. Mgron-bsu → [  ] Respect for the guest and hosting etiquette\n   2. Zhe-sa → [  ] Honorific language used for elders and honored guests\n   3. Snying-rje → [  ] Universal compassion and empathy\nActivity 3: Cross-Cultural Writing Prompt\n* Prompt: Write a short paragraph in English explaining how treating a guest with respect in Amdo Tibetan culture connects to the 21st-century global skill of cross-cultural empathy.\n",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "week-02-english-teacher",
+      "title": "Week 2 · Hospitality · English",
+      "collection": "teacher",
+      "week": 2,
+      "language": "english",
+      "levels": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "course": "amdo-english",
+      "path": "content/lessons/week-02-english-teacher.md",
+      "review_status": "draft: language and pedagogy review needed",
+      "content": "# Week 2: Hospitality — English teacher\n\nDraft for educator review · Levels 1–4 · CC BY 4.0\n\n🏔️ W02 L1-L4: ENGLISH-FACING TEACHER MASTER GUIDE\n\nI. Educator Facilitation & Washington D.C. / Tibet Bridge Notes\n* Pedagogical Alignment: Cultivating cross-cultural empathy and diplomatic grace through hospitality protocols.\n* Embedded Answer Key & Rubric Guidance:\n   * Assessment Target: Students must demonstrate correct honorific usage and polite conversational exchanges in both Amdo Tibetan and English.\n   * Formative Threshold: 80% accuracy in pairing honorific verbs with respectful guest interactions.\n\n---\n\nII. Module Objectives & Answer Key Matrix\n1. Level 1 (Seed / Sa-bon)\n* Objective: Master serving and greeting vocabulary.\n* Answer Key: \"Please accept the tea\" = བཞེས་ཇ་ཕུལ།; \"Thank you\" = ཐུགས་རྗེ་ཆེ།.\n2. Level 2 (Sprout / Myu-gu)\n* Objective: Execute welcoming dialogues for visitors.\n* Answer Key: Sentence frame: \"Welcome to our campus! We are honored by your presence.\"\n3. Level 3 (Lotus / Pad-ma)\n* Objective: Analyze proverbs on hospitality.\n* Answer Key: Respect for the guest; service to the host emphasizes reciprocity in community building.\n4. Level 4 — Peer teaching and reflection\n* Prepare a short bilingual explanation of this week’s theme.\n* Invite a partner to teach it back, then compare clarity and respectful language.\n* Teacher rubric: clear meaning, understandable phrasing, and thoughtful peer feedback.\n* Optional cultural or religious extensions belong to the local community and require approved sources and teacher review.\n",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

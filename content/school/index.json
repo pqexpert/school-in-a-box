@@ -1,0 +1,8 @@
+[
+  {"id":"school-start","title":"Set up your school in a box","path":"content/school/start-here.md","review_status":"Adaptable planning template"},
+  {"id":"school-campus","title":"Campus plan and shared responsibilities","path":"content/school/campus-plan.md","review_status":"Adaptable planning template"},
+  {"id":"school-course","title":"Course map and level progression","path":"content/school/course-map.md","review_status":"Draft course planning template"},
+  {"id":"school-teaching","title":"Weekly lesson and teach-back plan","path":"content/school/teaching-plan.md","review_status":"Adaptable planning template"},
+  {"id":"school-resources","title":"Resource and offline readiness checklist","path":"content/school/resources.md","review_status":"Adaptable planning template"},
+  {"id":"school-review","title":"Educator and community review","path":"content/school/review.md","review_status":"Adaptable review template"}
+]

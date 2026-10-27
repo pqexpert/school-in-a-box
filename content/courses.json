@@ -1,0 +1,11 @@
+[
+  {
+    "id":"amdo-english",
+    "title":"Amdo Tibetan ↔ English",
+    "summary":"Learn through teaching: everyday language, reciprocal inquiry and respectful communication. Two draft weeks are available; the 36-week course remains a roadmap.",
+    "levels":[{"id":"L1","name":"Seed · Objects and short phrases"},{"id":"L2","name":"Sprout · Sentences and dialogue"},{"id":"L3","name":"Lotus · Inquiry and explanation"},{"id":"L4","name":"Vajra · Peer teaching and reflection"}],
+    "weeks":[{"number":1,"title":"Identity"},{"number":2,"title":"Hospitality"}],
+    "review_status":"Draft: fluent educator review required",
+    "license":"CC-BY-4.0"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "week-01-amdo-student",
+    "title": "Week 1 · Identity · Amdo",
+    "collection": "student",
+    "week": 1,
+    "language": "amdo",
+    "levels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "course": "amdo-english",
+    "path": "content/lessons/week-01-amdo-student.md",
+    "review_status": "draft: language and pedagogy review needed"
+  },
+  {
+    "id": "week-01-amdo-teacher",
+    "title": "Week 1 · Identity · Amdo",
+    "collection": "teacher",
+    "week": 1,
+    "language": "amdo",
+    "levels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "course": "amdo-english",
+    "path": "content/lessons/week-01-amdo-teacher.md",
+    "review_status": "draft: language and pedagogy review needed"
+  },
+  {
+    "id": "week-01-english-student",
+    "title": "Week 1 · Identity · English",
+    "collection": "student",
+    "week": 1,
+    "language": "english",
+    "levels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "course": "amdo-english",
+    "path": "content/lessons/week-01-english-student.md",
+    "review_status": "draft: language and pedagogy review needed"
+  },
+  {
+    "id": "week-01-english-teacher",
+    "title": "Week 1 · Identity · English",
+    "collection": "teacher",
+    "week": 1,
+    "language": "english",
+    "levels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "course": "amdo-english",
+    "path": "content/lessons/week-01-english-teacher.md",
+    "review_status": "draft: language and pedagogy review needed"
+  },
+  {
+    "id": "week-02-amdo-student",
+    "title": "Week 2 · Hospitality · Amdo",
+    "collection": "student",
+    "week": 2,
+    "language": "amdo",
+    "levels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "course": "amdo-english",
+    "path": "content/lessons/week-02-amdo-student.md",
+    "review_status": "draft: language and pedagogy review needed"
+  },
+  {
+    "id": "week-02-amdo-teacher",
+    "title": "Week 2 · Hospitality · Amdo",
+    "collection": "teacher",
+    "week": 2,
+    "language": "amdo",
+    "levels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "course": "amdo-english",
+    "path": "content/lessons/week-02-amdo-teacher.md",
+    "review_status": "draft: language and pedagogy review needed"
+  },
+  {
+    "id": "week-02-english-student",
+    "title": "Week 2 · Hospitality · English",
+    "collection": "student",
+    "week": 2,
+    "language": "english",
+    "levels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "course": "amdo-english",
+    "path": "content/lessons/week-02-english-student.md",
+    "review_status": "draft: language and pedagogy review needed"
+  },
+  {
+    "id": "week-02-english-teacher",
+    "title": "Week 2 · Hospitality · English",
+    "collection": "teacher",
+    "week": 2,
+    "language": "english",
+    "levels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "course": "amdo-english",
+    "path": "content/lessons/week-02-english-teacher.md",
+    "review_status": "draft: language and pedagogy review needed"
+  }
+]

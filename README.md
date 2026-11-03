@@ -2,7 +2,7 @@
 
 **An open source, offline learning and teaching starter kit.** Download it, run it on a laptop or small computer, and adapt it for your school or community. No account, cloud service, AI provider, subscription, or Python package installation is required to use the local portal.
 
-[Download a release](https://github.com/pqexpert/school-in-a-box/releases/latest) · [Contribute a lesson or correction](CONTRIBUTING.md)
+[Try the browser demo](https://pqexpert.github.io/school-in-a-box/index.html) · [Download a release](https://github.com/pqexpert/school-in-a-box/releases/latest) · [Contribute a lesson or correction](CONTRIBUTING.md)
 
 The first course is **Amdo Tibetan ↔ English**, adapted from the DABA learning-through-teaching project. It includes two weeks, eight teacher/student lesson files, four learning levels, and adaptable community, boys, girls, and monastic campus planning templates. Campus templates share the same learning resources and do not assign ability or subjects by gender.
 
